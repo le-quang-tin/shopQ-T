@@ -1,0 +1,48 @@
+:root{
+  --white-color:#fff;
+  --black-color:#000;
+  --text-color:#333;
+  --primary-color:#35bfc4;
+  --border-color:#dbdbdb;
+  --width-cart:400px;
+  --height-header:120px;
+  --height-sort-bar:46px;
+}
+*{
+    box-sizing:border-box;
+}
+html{
+    font-size:62.5%;
+    line-height:1.6rem;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+
+}
+.col{
+  padding:5px;
+}
+.row{
+  margin:0 -5px;
+}
+/* ANIMATION */
+@keyframes fadein {
+from{
+  opacity:0;
+}
+to{
+  opacity:1;
+}
+}
+@keyframes grow {
+  from{
+      transform:scale(0);
+      opacity:0;
+  }
+  to{
+      transform:scale(1);
+      opacity:1;
+  }
+}
+
+/* END ANIMATION */
+
